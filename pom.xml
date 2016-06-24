@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>spring-boot-mustache-demo</name>
-	<description>Example project with React.js Spring Boot Rxjava</description>
+	<description>Spring Boot Mustache Lombok demo application</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,7 +42,8 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- mustache - spring 3 party integration solution -->
+		<!-- mustache - spring 3 party integration solution
+		 used for simple Mustache.java Spring integration -->
 		<dependency>
 			<groupId>com.github.mjeanroy</groupId>
 			<artifactId>springmvc-mustache</artifactId>
