@@ -1,7 +1,7 @@
 # spring-boot-mustache-lombok-demo
 
-Spring Boot demo with Mustache logic less templates integrated with [springmvc-mustache](https://github.com/mjeanroy/springmvc-mustache).
-Lombok is used for simplifing POJOs in project.
+Spring Boot demo with [Mustache](https://github.com/spullara/mustache.java) logic less templates integrated with [springmvc-mustache](https://github.com/mjeanroy/springmvc-mustache).
+[Lombok](https://projectlombok.org/) is used for simplifing POJOs in project.
 
 
 ## How to run demo
