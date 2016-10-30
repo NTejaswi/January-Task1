@@ -19,6 +19,8 @@ go to localhost:8080
 
 ### Config
 
+ Integrated with [springmvc-mustache](https://github.com/mjeanroy/springmvc-mustache). It is not standard way but very easy one.
+
 ```java
 package com.szatmary.peter.mustache.demo.conf;
 
@@ -74,7 +76,7 @@ public class HelloWorldController {
 
 ### Mustache template
 
- Integrated with [springmvc-mustache](https://github.com/mjeanroy/springmvc-mustache). It is not standard way but very easy one.
+
 
 ```html
 <!DOCTYPE html>
