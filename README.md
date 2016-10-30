@@ -74,8 +74,39 @@ public class HelloWorldController {
 }
 ```
 
-### Mustache template
+### Student object with Lombok
 
+```java
+package com.szatmary.peter.mustache.demo.obj;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+public @Data class Student {
+    private String name;
+    private Integer age;
+    private Address address;
+}
+```
+
+### Address object with Lombok
+
+```java
+package com.szatmary.peter.mustache.demo.obj;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+public @Data class Address {
+    private String address;
+}
+```
+
+### Mustache template
 
 
 ```html
