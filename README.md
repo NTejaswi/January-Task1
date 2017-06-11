@@ -40,7 +40,7 @@ public class MustacheConfig {
 
 ### Controler 
 
-```Map<String, Object> model``` is used implicitly on template site for rendering your java datas from controller.
+```Map<String, Object> model``` is used implicitly on template site for rendering your java data from controller.
 
 ```java
 package com.szatmary.peter.mustache.demo.controller;
