@@ -84,7 +84,8 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-public @Data class Student {
+@Data
+public class Student {
     private String name;
     private Integer age;
     private Address address;
@@ -100,7 +101,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @AllArgsConstructor
-public @Data class Address {
+@Data
+public class Address {
     private String address;
 }
 ```

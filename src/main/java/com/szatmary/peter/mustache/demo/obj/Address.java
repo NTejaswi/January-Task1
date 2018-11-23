@@ -7,8 +7,8 @@ import lombok.Data;
  * Created by nue on 24.6.2016.
  */
 @AllArgsConstructor
-public @Data class Address {
+@Data
+public  class Address {
 
     private String address;
-
 }
