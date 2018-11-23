@@ -1,25 +1,24 @@
-# spring-boot-mustache-lombok-demo
-
+# spring-boot-mustache-lombok-demo #
 
 [![Build Status](https://travis-ci.org/peterszatmary/spring-boot-mustache-lombok-demo.svg?branch=master)](https://travis-ci.org/peterszatmary/spring-boot-mustache-lombok-demo)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f546ba46e3184e738150b8a79bd04204)](https://www.codacy.com/app/peterszatmary/spring-boot-mustache-lombok-demo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=peterszatmary/spring-boot-mustache-lombok-demo&amp;utm_campaign=Badge_Grade)
 
 Spring Boot demo with [Mustache](https://github.com/spullara/mustache.java) logic less templates integrated with [springmvc-mustache](https://github.com/mjeanroy/springmvc-mustache).
 [Lombok](https://projectlombok.org/) is used for simplifing POJOs in project.
 
+## How to run demo ##
 
-## How to run demo
-
-```shell
+```bash
 mvn clean install
 java -jar spring-boot-mustache-demo-0.0.1-SNAPSHOT.jar
 go to localhost:8080
 ```
 
-## How it works
+## How it works ##
 
-### Config
+### Config ###
 
- Integrated with [springmvc-mustache](https://github.com/mjeanroy/springmvc-mustache). It is not standard way but very easy one.
+Integrated with [springmvc-mustache](https://github.com/mjeanroy/springmvc-mustache). It is not standard way but very easy one.
 
 ```java
 package com.szatmary.peter.mustache.demo.conf;
@@ -38,7 +37,7 @@ public class MustacheConfig {
 }
 ```
 
-### Controler 
+### Controler ###
 
 ```Map<String, Object> model``` is used implicitly on template site for rendering your java data from controller.
 
@@ -74,7 +73,7 @@ public class HelloWorldController {
 }
 ```
 
-### Student object with Lombok
+### Student object with Lombok ###
 
 ```java
 package com.szatmary.peter.mustache.demo.obj;
@@ -92,7 +91,7 @@ public @Data class Student {
 }
 ```
 
-### Address object with Lombok
+### Address object with Lombok ###
 
 ```java
 package com.szatmary.peter.mustache.demo.obj;
@@ -106,7 +105,7 @@ public @Data class Address {
 }
 ```
 
-### Mustache template
+### Mustache template ###
 
 
 ```html
