@@ -11,4 +11,6 @@ import lombok.Data;
 public  class Address {
 
     private String address;
+
+  
 }
